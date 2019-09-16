@@ -1,8 +1,7 @@
 # Define the provider
 
-provider "aws"{
-access_key = "${var.AWS_ACCESS_KEY}" # AWS Access key
-secret_key = "${var.AWS_SECRET_KEY}" # AWS Secret Access Key
-region = "${var.AWS_REGION}"  # The region in which you want to Operate
+provider "aws" {
+AWS_ACCESS_KEY = "AKIA4WQRLBVQK7D5O5BG"
+AWS_SECRET_KEY = "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"
+AWS_REGION     = "us-west-1"
 }
-
